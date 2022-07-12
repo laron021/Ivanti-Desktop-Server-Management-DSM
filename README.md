@@ -1,1 +1,1 @@
-# Here you can find basic PowerShell scripts for daily work with AD, invanti DSM Console
+# Here you can find basic PowerShell scripts for daily work with AD, Invanti DSM Console
