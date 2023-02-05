@@ -6,7 +6,7 @@
 
 ## SYNTAX
 
-```
+```Ruby
 prod [-start] <String> [[-basis] <Int32>] [[-welle] <Int32>] [[-uninstall_basis] <Array>] [[-erweiterung_basis] <Array>] 
  [[-revupdate_basis] <Array>] [[-erweiterung_welle] <Array>] [[-revupdate_welle] <Array>] [[-deny_welle] <Array>]  
 
