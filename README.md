@@ -33,7 +33,7 @@ PS> Import-Module "D:\Work\arlakato\DSMScript.psm1" -Force
 
 [LAST USER](LASTUSER.md)
 
-[DELETE POLICY]()
+[DELETE POLICY](DELETEPOLICY.md)
 
 [ZUWEISUNG]()
 
