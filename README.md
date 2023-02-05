@@ -59,8 +59,8 @@ PS> Import-Module "D:\Work\arlakato\DSMScript.psm1" -Force
   / """"""""""" \                       
  / ::::::::::::: \                  
 (_________________)
-* respect uwefranke*
-          
+
+*respect uwefranke*         
 ```
 
 
