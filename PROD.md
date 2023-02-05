@@ -14,39 +14,84 @@ prod [-start] <String> [[-basis] <Int32>] [[-welle] <Int32>] [[-uninstall_basis]
 
 ## EXAMPLES
 
-```
-pilot -start '22:00 30.01.2022' -currentgroup 16884 -targetgroup 19875 -exc @(13215,15644)
+```powershell
+prod -start '22:00 30.01.2022' -basis 16884 -uninstall_basis @(13215,15644) -revupdate_basis @(84644,12774)
+
+prod -start '22:00 17.04.2023' -welle 15685 -erweiterung_welle @(16515,68465) -deny_welle @(84164,684633)
 ```
 
 ## PARAMETERS
 
 ### -start
-'22:00 30.05.2023' --> 'HH:MM DD.MM.YYYY'
+policy aktiválódási időpontja
 
 ```yaml
 Type: String
 Mandatory: True
+Syntax: '22:00 30.05.2023' --> 'HH:MM DD.MM.YYYY'
 ```
 
-### -targetgroup
-DSM group object ID
-
+### -basis
+DSM group object ID, célcsoport 
 ```yaml
 Type: Int32
-Mandatory: True
+Mandatory: False
 ```
-### -currentgroup
-DSM group object ID
+### -welle
+DSM group object ID, célcsoport
 
+RG1-RG2-RG3
 ```yaml
 Type: Int32
-Mandatory: True
+Mandatory: False
 ```
 
-### -exc
-Policy ID --> @(3333,4444)
+### -uninstall_basis
+báziscsoporton lévő policy ID
 
 ```yaml
 Type: Array
 Mandatory: False
+Syntax:  @(3333,4444)
+```
+### -erweiterung_basis
+pilot, qs csoporton lévő policy ID
+
+```yaml
+Type: Array
+Mandatory: False
+Syntax:  @(3333,4444)
+```
+### -revupdate_basis
+báziscsoporton lévő policy ID
+
+nem használható, ha az adott releaseben a szofver egy magasabb revziója már medjelent DSM-ben!
+```yaml
+Type: Array
+Mandatory: False
+Syntax:  @(3333,4444)
+```
+### -erweiterung_welle
+pilot, qs csoporton lévő policy ID
+
+```yaml
+Type: Array
+Mandatory: False
+Syntax:  @(3333,4444)
+```
+### -revupdate_welle
+pilot, qs csoporton lévő policy ID
+
+```yaml
+Type: Array
+Mandatory: False
+Syntax:  @(3333,4444)
+```
+### -deny_welle
+pilot, qs csoporton lévő policy ID
+
+```yaml
+Type: Array
+Mandatory: False
+Syntax:  @(3333,4444)
 ```
