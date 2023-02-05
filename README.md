@@ -31,7 +31,7 @@ PS> Import-Module "D:\Work\arlakato\DSMScript.psm1" -Force
 
 [CREATE GROUP](CREATEGROUP.md)
 
-[LAST USER](lastuser.md)
+[LAST USER](LASTUSER.md)
 
 [DELETE POLICY]()
 
