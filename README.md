@@ -12,7 +12,7 @@ Also for creating, managing group and user objects
 ## FUNCTIONS 
 [QSA](https://github.com/laron021/IT/blob/main/QSA.md)
 
-[PILOT]()
+[PILOT](https://github.com/laron021/IT/blob/main/PILOT.md)
 
 
 
