@@ -8,6 +8,10 @@ Module Name: DSMScript.psm1 * respect [uwefranke](https://github.com/uwefranke/m
 # DESCRIPTION
 PowerShell sciptek Policy, User, Group menedzsmenthez Ivanti DSMben
 
+```powershell
+PS> Import-Module "D:\Work\arlakato\DSMScript.psm1" -Force
+```
+
 ## FUNCTIONS 
 [QSA](https://github.com/laron021/IT/blob/main/QSA.md)
 
@@ -43,6 +47,19 @@ PowerShell sciptek Policy, User, Group menedzsmenthez Ivanti DSMben
 | |__| | | |) X (   | | | |_| | |      | |  ( (/ ( ( | ( (_| | | | | ( ( | |
  \___)_| |_(_/ \_)  |_|  \___/|_|      |_|   \____)_||_|\____|_|_| |_|\_|| |
                                                                      (_____| 
+                                                                     
+     _________
+    / ======= \
+   / __________\
+  | ___________ |
+  | | DSM     | |
+  | | Script  | |
+  | |_________| |________________________
+  \=____________/   by Arlakato      
+  / """"""""""" \                       
+ / ::::::::::::: \                  
+(_________________)
+                                                                     
 ```
 
 
