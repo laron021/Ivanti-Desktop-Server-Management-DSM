@@ -3,6 +3,7 @@
 ## DESCRIPTION
 + Software zuweisungokhoz statikus és DL-SWD csoportokon
 + DL-SWD zuweisungkor az -IsUserPolicyAllassociatedComputer paramétert módosítani kell!
++ 'Letükrözi' az adott csoportot a Prod szabályainak megfelelően
 
 
 ## SYNTAX
