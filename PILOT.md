@@ -43,7 +43,7 @@ Mandatory: True
 ```
 
 ### -exc
-Software ID --> @(3333,4444)
+Policy ID --> @(3333,4444)
 
 ```yaml
 Type: Array
