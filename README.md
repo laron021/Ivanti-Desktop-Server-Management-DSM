@@ -27,7 +27,7 @@ PS> Import-Module "D:\Work\arlakato\DSMScript.psm1" -Force
 
 [BEREINIGUNG2](TOTALCLEANUP.md)
 
-[INDI BEREINIGUNG]()
+[INDI BEREINIGUNG](CHECKMEMBERSHIP.md)
 
 [CREATE GROUP]()
 
