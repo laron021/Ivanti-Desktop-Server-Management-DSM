@@ -2,15 +2,19 @@
 
 
 ---
-Module Name: DSMScript.psm1 * txh for [uwefranke](https://github.com/uwefranke/msgDSM7Module) *
+Module Name: DSMScript.psm1 * respect [uwefranke](https://github.com/uwefranke/msgDSM7Module) *
 ---
 
-# 
+# DESCRIPTION
+PowerShell functions to manage, get information about policies in Ivanti DSM
+Also for creating, managing group and user objects
 
 ## FUNCTIONS 
 [QSA](https://github.com/laron021/IT/blob/main/QSA.md)
 
-## DESCRIPTION
+[]
+
+
 
 
 ## SYNTAX
