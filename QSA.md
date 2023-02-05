@@ -1,20 +1,20 @@
-# PILOT
+# QSA
 
 ## DESCRIPTION
-+ Software zuweisungokhoz kizárólag statikus, bázscsoportokon a release PILOT szakaszában
-+ Kezeli a system-konfig beállítással rendelkező policykat is, ezek inactive státuszt kapnak
-+ A kivételkezeléstől eltekintve új célcsoportot ad a policyknak(erweiterung)
++ Software zuweisungokhoz kizárólag statikus, bázscsoportokon a release QSA szakaszában
++ Kizárólag olyan zuweisungra használható, ahol az adott szoftver install paraméterei nem tartlamaznak system-konfig umgebung beálltásokat
+
 
 ## SYNTAX
 
 ```
-pilot [-start] <String> [[-targetgroup] <Int32>] [[-currentgroup] <Int32>] [[-exc] <Array>] 
+qsa [-start] <String> [[-targetgroup] <Int32>] [[-standard] <Array>] [[-revupdate] <Array>] [[-deny] <Array>] 
 ```
 
 ## EXAMPLES
 
 ```
-pilot -start '22:00 30.01.2022' -currentgroup 16884 -targetgroup 19875 -exc @(13215,15644)
+qsa -start '22:00 30.01.2022' -targetgroup 19875 -standard @(13215,15644) -deny @(32544,68768)
 ```
 
 ## PARAMETERS
@@ -34,16 +34,25 @@ DSM group object ID
 Type: Int32
 Mandatory: True
 ```
-### -currentgroup
-DSM group object ID
+
+### -standard
+Software ID --> @(1111,2222)
 
 ```yaml
-Type: Int32
-Mandatory: True
+Type: Array
+Mandatory: False
 ```
 
-### -exc
+### -deny
 Software ID --> @(3333,4444)
+
+```yaml
+Type: Array
+Mandatory: False
+```
+
+### -revupdate
+Software ID --> @(5555,6666)
 
 ```yaml
 Type: Array
