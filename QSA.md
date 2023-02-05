@@ -7,24 +7,27 @@
 
 ## SYNTAX
 
-```
-qsa [-start] <String> [[-targetgroup] <Int32>] [[-standard] <Array>] [[-revupdate] <Array>] [[-deny] <Array>] 
+```python
+qsa [[-start] <String>] [[-targetgroup] <Int32>] [[-standard] <Array>] [[-revupdate] <Array>] [[-deny] <Array>]
 ```
 
 ## EXAMPLES
 
-```
+```powershell
 qsa -start '22:00 30.01.2022' -targetgroup 19875 -standard @(13215,15644) -deny @(32544,68768)
+
+qsa -start '22:00 17.05.2023' -targetgroup 17468 -revupdate @(87463,24813)
 ```
 
 ## PARAMETERS
 
 ### -start
-'22:00 30.05.2023' --> 'HH:MM DD.MM.YYYY'
+policy aktiválódási időpontja
 
 ```yaml
 Type: String
 Mandatory: True
+Syntax: '22:00 30.05.2023' --> 'HH:MM DD.MM.YYYY'
 ```
 
 ### -targetgroup
