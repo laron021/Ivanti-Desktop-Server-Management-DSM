@@ -1,16 +1,14 @@
-# Here you can find basic PowerShell scripts for daily work with AD, Invanti DSM Console
+# PowerShell scripts for Ivanti DSM
 
 
 ---
-external help file: msgDSM7Module-help.xml
-Module Name: msgDSM7Module
-online version:
-schema: 2.0.0
+Module Name: DSMScript.psm1
+** txh for uwefranke **
 ---
 
-# Add-DSM7PolicyToTarget
+# 
 
-## SYNOPSIS
+## DESCRIPTION(https://www.youtube.com/)
 Fuegt eine Policy einem Object zu.
 
 ## SYNTAX
@@ -124,27 +122,4 @@ For more information, see about_CommonParameters (http://go.microsoft.com/fwlink
 
 ## RELATED LINKS
 
-[Get-DSM7PolicyList]()
-
-[Get-DSM7Policy]()
-
-[Remove-DSM7Policy]()
-
-[New-DSM7Policy]()
-
-[Add-DSM7PolicyToTarget]()
-
-[Move-DSM7PolicyToTarget]()
-
-[Update-DSM7Policy]()
-
-[Get-DSM7PolicyListByTarget]()
-
-[Get-DSM7PolicyListByAssignedSoftware]()
-
-[Copy-DSM7PolicyListNewTarget]()
-
-[Get-DSM7PolicyStatisticsByTarget]()
-
-[Get-DSM7PolicyStatistics]()
 
