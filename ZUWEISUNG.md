@@ -1,3 +1,21 @@
+# REGEX
+
+## DESCRIPTION
++ Reguláris kifejezéssel ellenőrzi a dátumformátumot
+
+## SYNTAX
+
+```ruby
+regex [[-m] <String>] 
+```
+
+## EXAMPLES
+
+```powershell
+regex -m '22:00 11.03.2023'
+
+```
+
 # STANDARD
 
 ## DESCRIPTION
