@@ -25,7 +25,7 @@ PS> Import-Module "D:\Work\arlakato\DSMScript.psm1" -Force
 
 [BEREINIGUNG1](CLEANUP.md)
 
-[BEREINIGUNG2]()
+[BEREINIGUNG2](TOTALCLEANUP.md)
 
 [INDI BEREINIGUNG]()
 
