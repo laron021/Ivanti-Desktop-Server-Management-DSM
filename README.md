@@ -2,14 +2,16 @@
 
 
 ---
-Module Name: DSMScript.psm1
-** txh for uwefranke **
+Module Name: DSMScript.psm1 * txh for [uwefranke](https://github.com/uwefranke/msgDSM7Module) *
 ---
 
 # 
 
-## DESCRIPTION(https://www.youtube.com/)
-Fuegt eine Policy einem Object zu.
+## FUNCTIONS 
+[QSA]()
+
+## DESCRIPTION
+
 
 ## SYNTAX
 
