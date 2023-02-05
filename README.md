@@ -8,7 +8,7 @@ Module Name: DSMScript.psm1 * txh for [uwefranke](https://github.com/uwefranke/m
 # 
 
 ## FUNCTIONS 
-[QSA]()
+[QSA](https://github.com/laron021/IT/blob/main/QSA.md)
 
 ## DESCRIPTION
 
