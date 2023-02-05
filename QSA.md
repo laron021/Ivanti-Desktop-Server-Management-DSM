@@ -39,25 +39,28 @@ Mandatory: True
 ```
 
 ### -standard
-Software ID --> @(1111,2222)
+Software ID 
 
 ```yaml
 Type: Array
 Mandatory: False
+Syntax:  @(3333,4444)
 ```
 
 ### -deny
-Software ID --> @(3333,4444)
+Software ID 
 
 ```yaml
 Type: Array
 Mandatory: False
+Syntax:  @(3333,4444)
 ```
 
 ### -revupdate
-Software ID --> @(5555,6666)
+Software ID 
 
 ```yaml
 Type: Array
 Mandatory: False
+Syntax:  @(3333,4444)
 ```
