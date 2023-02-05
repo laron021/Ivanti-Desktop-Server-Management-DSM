@@ -19,7 +19,7 @@ PS> Import-Module "D:\Work\arlakato\DSMScript.psm1" -Force
 
 [PROD](https://github.com/laron021/IT/blob/main/PROD.md)
 
-[INDI PROD]()
+[INDI PROD](https://github.com/laron021/SWD/blob/main/INDI%20PROD.md)
 
 [WELLE]()
 
