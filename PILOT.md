@@ -7,24 +7,25 @@
 
 ## SYNTAX
 
-```
+```Ruby
 pilot [-start] <String> [[-targetgroup] <Int32>] [[-currentgroup] <Int32>] [[-exc] <Array>] 
 ```
 
 ## EXAMPLES
 
-```
+```powershell
 pilot -start '22:00 30.01.2022' -currentgroup 16884 -targetgroup 19875 -exc @(13215,15644)
 ```
 
 ## PARAMETERS
 
 ### -start
-'22:00 30.05.2023' --> 'HH:MM DD.MM.YYYY'
+policy aktiválódási időpontja
 
 ```yaml
 Type: String
 Mandatory: True
+Syntax: '22:00 30.05.2023' --> 'HH:MM DD.MM.YYYY'
 ```
 
 ### -targetgroup
@@ -43,9 +44,10 @@ Mandatory: True
 ```
 
 ### -exc
-Policy ID --> @(3333,4444)
+Policy ID 
 
 ```yaml
 Type: Array
 Mandatory: False
+Syntax:  @(3333,4444)
 ```
