@@ -2,7 +2,7 @@
 
 
 ---
-Module Name: DSMScript.psm1 * respect [uwefranke](https://github.com/uwefranke/msgDSM7Module) *
+Module Name: DSMScript.psm1 
 ---
 
 # DESCRIPTION
@@ -59,7 +59,8 @@ PS> Import-Module "D:\Work\arlakato\DSMScript.psm1" -Force
   / """"""""""" \                       
  / ::::::::::::: \                  
 (_________________)
-                                                                     
+* respect uwefranke*
+          
 ```
 
 
