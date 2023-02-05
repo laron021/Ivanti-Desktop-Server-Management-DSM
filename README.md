@@ -13,15 +13,15 @@ PS> Import-Module "D:\Work\arlakato\DSMScript.psm1" -Force
 ```
 
 ## FUNCTIONS 
-[QSA](https://github.com/laron021/IT/blob/main/QSA.md)
+[QSA](QSA.md)
 
-[PILOT](https://github.com/laron021/IT/blob/main/PILOT.md)
+[PILOT](PILOT.md)
 
-[PROD](https://github.com/laron021/IT/blob/main/PROD.md)
+[PROD](PROD.md)
 
-[INDI PROD](https://github.com/laron021/SWD/blob/main/INDI%20PROD.md)
+[INDI PROD](INDI%20PROD.md)
 
-[WELLE](https://github.com/laron021/SWD/blob/main/WELLE.md)
+[WELLE](WELLE.md)
 
 [BEREINIGUNG1](CLEANUP.md)
 
