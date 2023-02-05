@@ -23,7 +23,7 @@ PS> Import-Module "D:\Work\arlakato\DSMScript.psm1" -Force
 
 [WELLE](https://github.com/laron021/SWD/blob/main/WELLE.md)
 
-[BEREINIGUNG1]()
+[BEREINIGUNG1](CLEANUP.md)
 
 [BEREINIGUNG2]()
 
