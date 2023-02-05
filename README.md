@@ -6,8 +6,7 @@ Module Name: DSMScript.psm1 * respect [uwefranke](https://github.com/uwefranke/m
 ---
 
 # DESCRIPTION
-PowerShell functions to manage, get information about policies in Ivanti DSM
-Also for creating, managing group and user objects
+PowerShell sciptek Policy, User, Group menedzsmenthez Ivanti DSMben
 
 ## FUNCTIONS 
 [QSA](https://github.com/laron021/IT/blob/main/QSA.md)
