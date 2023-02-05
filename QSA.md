@@ -7,7 +7,7 @@
 
 ## SYNTAX
 
-```html
+```ruby
 qsa [[-start] <String>] [[-targetgroup] <Int32>] [[-standard] <Array>] [[-revupdate] <Array>] [[-deny] <Array>]
 ```
 
