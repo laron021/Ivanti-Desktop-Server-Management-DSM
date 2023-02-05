@@ -29,7 +29,7 @@ PS> Import-Module "D:\Work\arlakato\DSMScript.psm1" -Force
 
 [INDI BEREINIGUNG](CHECKMEMBERSHIP.md)
 
-[CREATE GROUP]()
+[CREATE GROUP](CREATEGROUP.md)
 
 [LAST USER]()
 
