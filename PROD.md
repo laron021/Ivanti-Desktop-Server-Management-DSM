@@ -15,9 +15,9 @@ prod [-start] <String> [[-basis] <Int32>] [[-welle] <Int32>] [[-uninstall_basis]
 ## EXAMPLES
 
 ```powershell
-prod -start '22:00 30.01.2022' -basis 16884 -uninstall_basis @(13215,15644) -revupdate_basis @(84644,12774)
+prod -start '22:00 01.31.2022' -basis 16884 -uninstall_basis @(13215,15644) -revupdate_basis @(84644,12774)
 
-prod -start '22:00 17.04.2023' -welle 15685 -erweiterung_welle @(16515,68465) -deny_welle @(84164,684633)
+prod -start '22:00 04.14.2023' -welle 15685 -erweiterung_welle @(16515,68465) -deny_welle @(84164,684633)
 ```
 
 ## PARAMETERS
@@ -28,7 +28,7 @@ policy aktiválódási időpontja
 ```yaml
 Type: String
 Mandatory: True
-Syntax: '22:00 30.05.2023' --> 'HH:MM DD.MM.YYYY'
+Syntax: '22:00 05.30.2023' --> 'HH:MM MM.DD.YYYY'
 ```
 
 ### -basis
