@@ -2,7 +2,7 @@
 
 ## DESCRIPTION
 + IPN utáni fölöslegessé vált zuweisungok törlésésre 
-+ Ha egy Individuell szoftver kikerült egy DL-SWD csoportra, akkor a tesztcsoportokon maradt policy-k adott feltételek mellett törölhetőek. Ha egy tesztcsoportban lévő user tagja az adott szoftver DL-SWD csoportjának, nem csükséges a policy-t uninstallálálni. Amenniaben viszont nem tagja, törlésre kerül sor. 
++ Ha egy Individuell szoftver kikerült egy DL-SWD csoportra, akkor a tesztcsoportokon maradt policy-k adott feltételek mellett törölhetőek. Ha egy tesztcsoportban lévő user tagja az adott szoftver DL-SWD csoportjának, nem csükséges a policy-t uninstallálni. Amenniaben viszont nem tagja, törlésre kerül sor. 
 + A script azt vizsgálja, hogy a gépre legutolsóként bejelentkezett user rendelkezik-e csoporttagsággal az adott szoftver DL-SWD csoportjában
 
 ## SYNTAX
