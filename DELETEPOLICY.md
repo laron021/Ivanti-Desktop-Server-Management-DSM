@@ -21,7 +21,7 @@ forceremove -ID 12215
 ### -ID
 
 ```yaml
-Type: String
+Type: Int32
 Mandatory: True
 ```
 
