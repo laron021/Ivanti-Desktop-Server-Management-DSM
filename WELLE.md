@@ -13,7 +13,7 @@ welle [[-start] <String>] [[-targetwelle] <Int32>] [[-currentwelle] <Int32>] [[-
 ## EXAMPLES
 
 ```powershell
-welle -start '22:00 30.01.2022' -targetwelle 19875 -currentwelle 13215 -exc @(32544,68768)
+welle -start '22:00 01.31.2022' -targetwelle 19875 -currentwelle 13215 -exc @(32544,68768)
 
 ```
 
@@ -25,7 +25,7 @@ policy aktiválódási időpontja
 ```yaml
 Type: String
 Mandatory: True
-Syntax: '22:00 30.05.2023' --> 'HH:MM DD.MM.YYYY'
+Syntax: '22:00 05.30.2023' --> 'HH:MM MM.DD.YYYY'
 ```
 
 ### -targetwelle
