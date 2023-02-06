@@ -30,7 +30,7 @@ standard [[-start] <String>] [[-target] <Int32>] [[-SwID] <Int32>]
 ## EXAMPLES
 
 ```powershell
-standard -start '22:00 11.03.2023' -target 55488 -SwID 68684
+standard -start '22:00 03.30.2023' -target 55488 -SwID 68684
 
 ```
 
@@ -41,7 +41,7 @@ standard -start '22:00 11.03.2023' -target 55488 -SwID 68684
 ```yaml
 Type: String
 Mandatory: True
-Syntax: '22:00 30.05.2023' --> 'HH:MM DD.MM.YYYY'
+Syntax: '22:00 05.30.2023' --> 'HH:MM MM.DD.YYYY'
 ```
 
 ### -target 
@@ -73,7 +73,7 @@ deny [[-start] <String>] [[-target] <Int32>] [[-SwID] <Int32>]
 ## EXAMPLES
 
 ```powershell
-deny -start '22:00 11.03.2023' -target 55488 -SwID 68684
+deny -start '22:00 03.23.2023' -target 55488 -SwID 68684
 
 ```
 
@@ -84,7 +84,7 @@ deny -start '22:00 11.03.2023' -target 55488 -SwID 68684
 ```yaml
 Type: String
 Mandatory: True
-Syntax: '22:00 30.05.2023' --> 'HH:MM DD.MM.YYYY'
+Syntax: '22:00 05.30.2023' --> 'HH:MM MM.DD.YYYY'
 ```
 
 ### -target 
