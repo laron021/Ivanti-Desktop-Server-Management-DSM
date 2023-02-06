@@ -27,7 +27,7 @@ policy aktiválódási időpontja
 ```yaml
 Type: String
 Mandatory: True
-Syntax: '22:00 30.05.2023' --> 'HH:MM MM.DD.YYYY'
+Syntax: '22:00 05.30.2023' --> 'HH:MM MM.DD.YYYY'
 ```
 
 ### -targetgroup
