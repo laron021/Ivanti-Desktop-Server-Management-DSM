@@ -14,7 +14,7 @@ pilot [-start] <String> [[-targetgroup] <Int32>] [[-currentgroup] <Int32>] [[-ex
 ## EXAMPLES
 
 ```powershell
-pilot -start '22:00 30.01.2022' -currentgroup 16884 -targetgroup 19875 -exc @(13215,15644)
+pilot -start '22:00 01.31.2022' -currentgroup 16884 -targetgroup 19875 -exc @(13215,15644)
 ```
 
 ## PARAMETERS
@@ -25,7 +25,7 @@ policy aktiválódási időpontja
 ```yaml
 Type: String
 Mandatory: True
-Syntax: '22:00 30.05.2023' --> 'HH:MM DD.MM.YYYY'
+Syntax: '22:00 05.30.2023' --> 'HH:MM MM.DD.YYYY'
 ```
 
 ### -targetgroup
