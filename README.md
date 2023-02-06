@@ -6,7 +6,7 @@ Module Name: DSMScript.psm1
 ---
 
 # DESCRIPTION
-PowerShell sciptek Policy, User, Group menedzsmenthez Ivanti DSM-ben
+PowerShell scriptek Policy, User, Group menedzsmenthez Ivanti DSM-ben
 
 ```powershell
 PS> Import-Module "D:\Work\arlakato\DSMScript.psm1" -Force
