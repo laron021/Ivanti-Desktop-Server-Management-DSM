@@ -17,6 +17,8 @@ PS> Import-Module "D:\Work\arlakato\DSMScript.psm1" -Force
 
 [PILOT](PILOT.md)
 
+[INDI PILOT](INDI PILOT.md)
+
 [PROD](PROD.md)
 
 [INDI PROD](INDI%20PROD.md)
