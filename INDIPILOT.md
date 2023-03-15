@@ -1,21 +1,20 @@
-# INDI PROD
+# INDI PILOT
 
 ## DESCRIPTION
-+ Software zuweisungokhoz statikus és DL-SWD csoportokon
-+ DL-SWD zuweisungkor az -IsUserPolicyAllassociatedComputer paramétert módosítani kell!
-+ 'Letükrözi' az adott csoportot a Prod szabályainak megfelelően
++ Software zuweisungokhoz statikus csoportokon
++ 'Letükrözi' az adott csoportot, detektálja a konfigbeállításokat
 
 
 ## SYNTAX
 
 ```ruby
-indiprod [[-start] <String>] [[-revupdate] <Array>] [[-exc] <Array>] [[-dict] <Hashtable>] 
+indipilot [[-start] <String>] [[-exc] <Array>] [[-dict] <Hashtable>] 
 ```
 
 ## EXAMPLES
 
 ```powershell
-indiprod -start '22:00 01.31.2022' -revupdate @(6767,9852) -exc @(13215,15644) -dict @{15616 = 864641}
+indipilot -dict @{450706=450705} -start "22:00 04.04.2023" -exc @(13215,15644)
 
 ```
 
@@ -28,15 +27,6 @@ policy aktiválódási időpontja
 Type: String
 Mandatory: True
 Syntax: '22:00 05.30.2023' --> 'HH:MM MM.DD.YYYY'
-```
-
-### -revupdate
-Policy ID 
-
-```yaml
-Type: Array
-Mandatory: False
-Syntax:  @(3333,4444)
 ```
 
 ### -exc
