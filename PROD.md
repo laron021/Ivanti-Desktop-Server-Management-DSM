@@ -35,7 +35,7 @@ Syntax: '22:00 05.30.2023' --> 'HH:MM MM.DD.YYYY'
 ```
 
 ### -basis
-DSM group object ID, célcsoport 
+DSM group object ID, targetgroup 
 ```yaml
 Type: Int32
 Mandatory: False
