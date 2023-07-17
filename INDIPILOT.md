@@ -15,7 +15,10 @@ indipilot [[-start] <String>] [[-exc] <Array>] [[-dict] <Hashtable>]
 
 ```powershell
 indipilot -dict @{450706=450705} -start "22:00 04.04.2023" -exc @(13215,15644)
+```
 
+```powershell
+indipilot -dict @{450706=450705} -start $start -exc @(13215,15644)
 ```
 
 ## PARAMETERS
