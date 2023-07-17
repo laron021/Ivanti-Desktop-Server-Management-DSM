@@ -1,7 +1,7 @@
 # REGEX
 
 ## DESCRIPTION
-+ Reguláris kifejezéssel ellenőrzi a dátumformátumot
++ checking date format with regular expressions
 
 ## SYNTAX
 
@@ -19,7 +19,7 @@ regex -m '22:00 11.03.2023'
 # STANDARD
 
 ## DESCRIPTION
-+ Standard zuweisunghoz konfig-system Umgebung beállítás nélkül
+...
 
 ## SYNTAX
 
@@ -62,7 +62,7 @@ Mandatory: True
 # DENY
 
 ## DESCRIPTION
-+ DENY zuweisunghoz 
+...
 
 ## SYNTAX
 
