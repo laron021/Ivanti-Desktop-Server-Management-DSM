@@ -15,7 +15,8 @@ qsa [[-start] <String>] [[-targetgroup] <Int32>] [[-standard] <Array>] [[-revupd
 
 ```powershell
 qsa -start '22:00 01.31.2022' -targetgroup 19875 -standard @(13215,15644) -deny @(32544,68768)
-
+```
+```powershell
 qsa -start '$start' -targetgroup 17468 -revupdate @(87463,24813)
 ```
 
