@@ -17,6 +17,10 @@ pilot [-start] <String> [[-targetgroup] <Int32>] [[-currentgroup] <Int32>] [[-ex
 pilot -start '22:00 01.31.2022' -currentgroup 16884 -targetgroup 19875 -exc @(13215,15644)
 ```
 
+```powershell
+pilot -start $start -currentgroup 16884 -targetgroup 19875 -exc @(13215,15644)
+```
+
 ## PARAMETERS
 
 ### -start
