@@ -1,4 +1,4 @@
-# PowerShell scripts for Ivanti DSM
+# PowerShell module for Ivanti DSM
 
 
 ---
@@ -6,7 +6,7 @@ Module Name: DSMScript.psm1
 ---
 
 # DESCRIPTION
-PowerShell scriptek Policy, User, Group menedzsmenthez Ivanti DSM-ben
+PowerShell scripts for Policy, User and Group management 
 
 ```powershell
 PS> Import-Module "D:\Work\arlakato\DSMScript.psm1" -Force
