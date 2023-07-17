@@ -1,7 +1,7 @@
 # WELLE
 
 ## DESCRIPTION
-+ Software zuweisungokhoz, ha IPN után a szoftwerek különböző hullámban kerülnek kioszásra, aktiválásra
+...
 
 
 ## SYNTAX
@@ -14,9 +14,10 @@ welle [[-start] <String>] [[-targetwelle] <Int32>] [[-currentwelle] <Int32>] [[-
 
 ```powershell
 welle -start '22:00 01.31.2022' -targetwelle 19875 -currentwelle 13215 -exc @(32544,68768)
+```
 
-welle -start '22:00 01.31.2022' -targetwelle 19875 -currentwelle 13215 -final 19875
-
+```powershell
+welle -start $start -targetwelle 19875 -currentwelle 13215 -final 19875
 ```
 
 ## PARAMETERS
@@ -47,7 +48,7 @@ Mandatory: True
 ### -final
 DSM group object ID
 
-Az utolsó wellében, ami a báziscsoport kötelező megadni. Ugyanis itt nem kerül DenyPolicy létrehozásra, hanem a  már meglévő Policy fog uninstallra kerülni.
+MUST SET parameter in the last(4) rollout phase of Prod
 ```yaml
 Type: Int32
 Mandatory: False
