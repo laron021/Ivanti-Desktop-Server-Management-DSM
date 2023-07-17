@@ -1,9 +1,7 @@
 # PILOT
 
 ## DESCRIPTION
-+ Software zuweisungokhoz kizárólag statikus, bázscsoportokon a release PILOT szakaszában
-+ Kezeli a system-konfig beállítással rendelkező policykat is, ezek inactive státuszt kapnak
-+ A kivételkezeléstől eltekintve új célcsoportot ad a policyknak(erweiterung)
+...
 
 ## SYNTAX
 
@@ -24,7 +22,7 @@ pilot -start $start -currentgroup 16884 -targetgroup 19875 -exc @(13215,15644)
 ## PARAMETERS
 
 ### -start
-policy aktiválódási időpontja
+policy activation start date
 
 ```yaml
 Type: String
