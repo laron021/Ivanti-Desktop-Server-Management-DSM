@@ -1,9 +1,7 @@
 # TOTALCLEANUP
 
 ## DESCRIPTION
-+ IPN utáni fölöslegessé vált zuweisungok törlésésre a báziscsoportokból QSA-PILOT
-+ Ha nem kezeljük kivételként, a Jobpolicy-k is törlésre kerülnek!
-+ Kizárólag a CLEANUP után használható!!!
+...
 
 
 ## SYNTAX
