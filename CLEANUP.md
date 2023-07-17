@@ -1,9 +1,7 @@
 # CLEANUP
 
 ## DESCRIPTION
-+ IPN utáni fölöslegessé vált zuweisungok törlésésre a báziscsoportokból QSA-PILOT
-+ Az erweiterunggal Prodba került policy-k targetjeit uninstall nélkül eltávolítja kivéve magát a bázis csoportot 
-+ Ha nem kezeljük kivételként, a Jobpolicy-k is törlésre kerülnek!
+...
 
 ## SYNTAX
 
