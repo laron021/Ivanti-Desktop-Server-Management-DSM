@@ -1,7 +1,7 @@
 # CREATEGROUP
 
 ## DESCRIPTION
-+ Statikus csoportok létrehozása gépek számára és adott esetben a kívánt tesztgépek hozzáadása a csoporthoz
+...
 
 ## SYNTAX
 
@@ -12,7 +12,7 @@ creategroup [[-groupname] <String>] [[-testers] <Array>]
 ## EXAMPLES
 
 ```powershell
-creategroup -groupname '_Test_zuweisung' -testers @('BPC12','BPC13')
+creategroup -groupname '_Testzuweisung' -testers @('BPC12','BPC13','BPC14')
 
 ```
 
