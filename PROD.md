@@ -1,8 +1,7 @@
 # PROD
 
 ## DESCRIPTION
-+ Software zuweisungokhoz kizárólag statikus, bázscsoportokon a release PROD szakaszában
-+ Használható revzióemelésre, uninstallra, wellézésre, erweiterungra
+..
 
 ## SYNTAX
 
@@ -20,10 +19,14 @@ prod -start '22:00 01.31.2022' -basis 16884 -uninstall_basis @(13215,15644) -rev
 prod -start '22:00 04.14.2023' -welle 15685 -erweiterung_welle @(16515,68465) -deny_welle @(84164,684633)
 ```
 
+```powershell
+prod -start $start
+```
+
 ## PARAMETERS
 
 ### -start
-policy aktiválódási időpontja
+policy activation start date
 
 ```yaml
 Type: String
@@ -38,7 +41,7 @@ Type: Int32
 Mandatory: False
 ```
 ### -welle
-DSM group object ID, célcsoport
+DSM group object ID, targetgroup
 
 RG1-RG2-RG3
 ```yaml
@@ -47,7 +50,7 @@ Mandatory: False
 ```
 
 ### -uninstall_basis
-báziscsoporton lévő policy ID
+policy ID on basis group
 
 ```yaml
 Type: Array
@@ -55,7 +58,7 @@ Mandatory: False
 Syntax:  @(3333,4444)
 ```
 ### -erweiterung_basis
-pilot, qs csoporton lévő policy ID
+pilot, qs policy ID
 
 ```yaml
 Type: Array
@@ -63,16 +66,16 @@ Mandatory: False
 Syntax:  @(3333,4444)
 ```
 ### -revupdate_basis
-báziscsoporton lévő policy ID
+ policy ID on basis group
 
-nem használható, ha az adott releaseben a szofver egy magasabb revziója már medjelent DSM-ben!
+do not use if there is a never version of the softare is availabla in DSM than the version in the current release!
 ```yaml
 Type: Array
 Mandatory: False
 Syntax:  @(3333,4444)
 ```
 ### -erweiterung_welle
-pilot, qs csoporton lévő policy ID
+pilot, qs policy ID
 
 ```yaml
 Type: Array
@@ -80,7 +83,7 @@ Mandatory: False
 Syntax:  @(3333,4444)
 ```
 ### -revupdate_welle
-pilot, qs csoporton lévő policy ID
+pilot, qs policy ID
 
 ```yaml
 Type: Array
@@ -88,7 +91,7 @@ Mandatory: False
 Syntax:  @(3333,4444)
 ```
 ### -deny_welle
-pilot, qs csoporton lévő policy ID
+pilot, qs  policy ID
 
 ```yaml
 Type: Array
