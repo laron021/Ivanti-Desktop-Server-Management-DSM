@@ -1,7 +1,7 @@
 # LASTUSER
 
 ## DESCRIPTION
-+ Megadja, hogy egy adott user melyik gépen volt utoljára bejelentkezve
+...
 
 ## SYNTAX
 
