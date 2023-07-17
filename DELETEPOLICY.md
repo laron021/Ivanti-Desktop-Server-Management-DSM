@@ -1,7 +1,7 @@
 # FORCEREMOVE
 
 ## DESCRIPTION
-+ Azonnal törli a megadott policy-t uninstall nélkül
+...
 
 ## SYNTAX
 
@@ -29,7 +29,7 @@ Mandatory: True
 # REMOVE
 
 ## DESCRIPTION
-+ Uninstallálja a megadott policy-t
+...
 
 ## SYNTAX
 
