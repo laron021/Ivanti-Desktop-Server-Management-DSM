@@ -1,8 +1,7 @@
 # INDI PILOT
 
 ## DESCRIPTION
-+ Software zuweisungokhoz statikus csoportokon
-+ 'Letükrözi' az adott csoportot, detektálja a konfigbeállításokat
+...
 
 
 ## SYNTAX
@@ -24,7 +23,7 @@ indipilot -dict @{450706=450705} -start $start -exc @(13215,15644)
 ## PARAMETERS
 
 ### -start
-policy aktiválódási időpontja
+policy activation start date
 
 ```yaml
 Type: String
@@ -43,7 +42,7 @@ Syntax:  @(3333,4444)
 ### -dict
 DSM Group object ID
 
-pilot, qs és prod csoportok
+pilot, qs and prod group ID 
 ```yaml
 Type: Hashtable
 Mandatory: True
