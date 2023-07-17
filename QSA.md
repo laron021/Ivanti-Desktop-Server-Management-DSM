@@ -1,8 +1,7 @@
 # QSA
 
 ## DESCRIPTION
-+ Software zuweisungokhoz kizárólag statikus, bázscsoportokon a release QSA szakaszában
-+ Kizárólag olyan zuweisungra használható, ahol az adott szoftver install paraméterei nem tartlamaznak system-konfig umgebung beálltásokat
+...
 
 
 ## SYNTAX
@@ -24,7 +23,7 @@ qsa -start $start -targetgroup 17468 -revupdate @(87463,24813)
 ## PARAMETERS
 
 ### -start
-policy aktiválódási időpontja
+policy activation start date
 
 ```yaml
 Type: String
