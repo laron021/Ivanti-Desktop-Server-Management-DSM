@@ -23,7 +23,7 @@ welle -start $start -targetwelle 19875 -currentwelle 13215 -final 19875
 ## PARAMETERS
 
 ### -start
-policy aktiválódási időpontja
+policy activation start date
 
 ```yaml
 Type: String
