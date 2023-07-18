@@ -1,9 +1,7 @@
 # INDI PROD
 
 ## DESCRIPTION
-+ Software zuweisungokhoz statikus és DL-SWD csoportokon
-+ DL-SWD zuweisungkor az -IsUserPolicyAllassociatedComputer paramétert módosítani kell!
-+ 'Letükrözi' az adott csoportot a Prod szabályainak megfelelően
+...
 
 
 ## SYNTAX
@@ -16,13 +14,16 @@ indiprod [[-start] <String>] [[-revupdate] <Array>] [[-exc] <Array>] [[-dict] <H
 
 ```powershell
 indiprod -start '22:00 01.31.2022' -revupdate @(6767,9852) -exc @(13215,15644) -dict @{15616 = 864641}
+```
 
+```powershell
+indiprod -start $start -dict @{15616 = 864641} -revupdate @(6767,9852) -exc @(13215,15644) 
 ```
 
 ## PARAMETERS
 
 ### -start
-policy aktiválódási időpontja
+policy activation start date
 
 ```yaml
 Type: String
@@ -50,7 +51,7 @@ Syntax:  @(3333,4444)
 ### -dict
 DSM Group object ID
 
-pilot, qs és prod csoportok
+pilot, qs and prod groups
 ```yaml
 Type: Hashtable
 Mandatory: True
