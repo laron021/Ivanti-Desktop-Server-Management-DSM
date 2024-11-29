@@ -6,7 +6,8 @@ Module Name: DSMScript.psm1
 ---
 
 # DESCRIPTION
-PowerShell scripts for Policy, User and Group management 
+PowerShell scripts for Software, User and Group management 
+Designed automated software distribution
 
 ```powershell
 PS> Import-Module "D:\Work\arlakato\DSMScript.psm1" -Force
