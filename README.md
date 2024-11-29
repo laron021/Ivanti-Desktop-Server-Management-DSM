@@ -7,11 +7,15 @@ Module Name: DSMScript.psm1
 
 # DESCRIPTION
 PowerShell scripts for Software, User and Group management 
-Designed automated software distribution
+
+
+Designed to automate software distribution.
 
 ```powershell
-PS> Import-Module "D:\Work\arlakato\DSMScript.psm1" -Force
+PS> Import-Module "C:\location-of-the-module\DSMScript.psm1" -Force
 ```
+
+
 
 ## FUNCTIONS 
 [QSA](QSA.md)
