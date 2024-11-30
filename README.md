@@ -1,15 +1,22 @@
-# PowerShell module for Ivanti DSM
-![](https://github.com/laron021/SWD/blob/main/dsm_script.png)
+# PowerShell module for Ivanti Desktop and Server Management
+![](https://github.com/laron021/SWD/blob/main/ivanti_dsm_script.png)
 
 ---
 Module Name: DSMScript.psm1 
 ---
 
 # DESCRIPTION
-PowerShell scripts for Software, User and Group management 
+DSM helps IT departments manage and protect
+endpoints throughout their lifecycle. This can increase
+user productivity and improve business performance
+at lower costs. DSM automatically packages and
+deploys software and operating systems, patches
+vulnerabilities, detects software and hardware assets,
+and efficiently manages Windows operating system
+migrations.
 
 
-Designed to automate software distribution.
+This soap interface module designed to automate software distribution, user and group management.
 
 ```powershell
 PS> Import-Module "C:\location-of-the-module\DSMScript.psm1" -Force
