@@ -15,6 +15,9 @@ vulnerabilities, detects software and hardware assets,
 and efficiently manages Windows operating system
 migrations.
 
+* About DSM: https://www.ivanti.com/resources/library/ivi/2569/b9a7812d0fb0/?ext=pdf
+* InstallCore Module msgDSM7Module [www.powershellgallery.com](https://www.powershellgallery.com/packages/msgDSM7Module)
+* Download my custom module from this repository: DSMScript.psm1
 
 This soap interface module designed to automate software distribution, user and group management.
 
